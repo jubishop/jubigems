@@ -5,4 +5,5 @@
 .rbenv
 .rubocop-https*
 
+Gemfile.lock
 tmp/
