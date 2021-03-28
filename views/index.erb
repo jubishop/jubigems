@@ -1,0 +1,19 @@
+<% content_for :header do %>
+  <title>JubiGems</title>
+  <%= stylesheet_link_tag('/index.css') %>
+<% end %>
+
+<div class="gems">
+  <% @gems.by_name { |name, versions| %>
+    <% newest = versions.newest %>
+    <% gem = spec_for(name, newest.number, newest.platform) %>
+    <a class="gem" href="<%= gem.homepage %>">
+      <div class="gem-name">
+        <%= name %>
+      </div>
+      <div class="gem-summary">
+        <%= gem.summary %>
+      </div>
+    </a>
+  <% } %>
+</div>

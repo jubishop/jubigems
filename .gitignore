@@ -1,0 +1,7 @@
+.bash_profile
+.data
+.irb_history
+.rbenv
+.rubocop-https*
+
+tmp/

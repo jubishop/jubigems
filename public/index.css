@@ -1,0 +1,30 @@
+.gems {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gem {
+  background-color: white;
+  border: 1px solid black;
+  margin: 1em;
+  max-width: 16em;
+  transition: box-shadow 0.2s;
+}
+
+.gem:hover {
+  box-shadow: 0.4em 0.4em 0.4em 0 #222;
+}
+
+.gem-name {
+  background-color: black;
+  color: white;
+  font-family: 'Fira Code', monospace;
+  font-size: 1.2em;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.gem-summary {
+  color: black;
+  padding: 1em;
+}

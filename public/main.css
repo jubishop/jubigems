@@ -1,0 +1,16 @@
+body {
+  background-color: #e9573f;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 0 2em;
+}
+
+h1 {
+  font-family: 'Fira Code', monospace;
+  text-align: center;
+  font-size: 3em;
+}
+
+a {
+  text-decoration: none;
+}
