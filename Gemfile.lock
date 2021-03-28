@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/jubishop/sinatra-static.git
+  revision: 879846e99f3e98131a1d2d9be642407639aee932
+  specs:
+    sinatra-static (0.13)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -119,11 +125,6 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.0.0)
     zeitwerk (2.4.2)
-
-GEM
-  remote: https://www.jubigems.org/
-  specs:
-    sinatra-static (0.13)
 
 PLATFORMS
   x86_64-darwin-20

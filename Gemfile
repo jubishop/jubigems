@@ -18,6 +18,4 @@ gem 'rubocop-rake'
 gem 'rubocop-rspec'
 gem 'steep'
 
-source 'https://www.jubigems.org' do
-  gem 'sinatra-static'
-end
+gem 'sinatra-static', github: 'jubishop/sinatra-static'
